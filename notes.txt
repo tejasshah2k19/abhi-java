@@ -1,0 +1,198 @@
+lang:
+
+HL : Eng - user 
+LL : binary - system 
+ML : HL + LL 
+
+
+HL --> user ---> | Transaltor | system --> LL  -> output 
+
+
+Transaltor -> 1) compiler 
+              2) interpreter 
+              3) assembler 
+
+
+          compiler -> whole at once 
+          interpreter -> line by line 
+
+JAVA -> compiler + interpreter -> 
+            java compiled and interpreted lang 
+
+------------------------------------------------------------------------------------
+
+
+ML , DS -> 
+
+ABC -> SETL {Math}  ->  Guido van Rossum -> problem -> python -> 
+
+java -> lib -> ai , ds , 
+
+--------------------------------------------------------------
+
+java -> HL 
+     -> compiled + interpreted
+     -> object oriented : class , object ,encapsulation ----> 
+     -> open source -- properitor  
+
+
+java version => 21 1.21 
+
+                java 6 
+                java 1.6 
+
+            tools ? software ? java 
+
+
+                                JAVA
+        JDK                                     JRE 
+        java development kit                    java runtime enrviornment 
+
+
+
+        java install-> jdk -> {jre}
+        computer -> java app run -> how? 
+        os -> jre ->
+
+        JDK:JRE   
+
+
+        text editor -> notepad -> IDE -> software -> eclipse ->  
+                        visual code VSCODE->
+                        notepad++
+                        sublime 
+                        extension=>  
+                        
+    JDK -> develop
+            javac 
+            java 
+            javadoc 
+            jdb 
+            javah 
+            appletviewer 
+            XXXX 
+
+    JRE -> execute 
+        class loader 
+        JIT : just in time 
+        JVM : java virtual machine 
+
+-----------------------------------------------------------------------------------------
+
+code ? 
+
+java -> .java 
+     -> class:object 
+
+how to run java code ? 
+    1) compile -> javac -> java file -> {sysntax , link } { .class }{bytecode}
+    2) execute -> java -> class file -> bytecode->systemcode->output  
+
+-----------------------------------------------------------------------------
+POP 
+OOP  --> java 
+
+
+class  -> blue print -> group -> logical ->  general 
+object -> member - physical - special 
+
+class -> property -> 
+            data member      : variable 
+            member function  : method 
+
+Dog ->      object : peter:xyz      sam:abc  
+    leg                 leg         leg 
+    mouth               mouth       mouth 
+    eyes                eyes        eyes 
+    walk()              
+    run()
+    
+HB -> 
+Men ->  Abhi 
+Laptop -> Legion Y 520 
+Mobile -> iphone 13 pro max dhiraj sir 
+
+Bank 
+Mercedez Benz 
+Bottle 
+Projector 
+Dzire
+Mobile 
+Iphone 
+Iphone15 
+--------------------------------------------------------------
+class : property : object 
+--------------------------------------------------------------
+
+java -> class -> main() -> ClassName.java 
+
+
+naming convention -> 
+class  : 
+        first character is in upper and rest are in lower 
+        if it contains multiple words then 
+            first character of each world should be in upper 
+
+variable : 
+        first character should be in lower 
+        if it contains multiple word then 
+                from second word first character of 
+                        each word is in upper 
+        e.g : salary , maxSalary , totalSalary , totalDeductSalary   
+
+method : 
+        same as variable  
+        we have () bracket in methods 
+
+-----------------------------------------------------------------
+
+calculator -> class , variable , method , object --> 
+
+calculator class 
+    add()
+    sub()
+    mul() 
+
+main -> calling -> 
+-----------------------------------------------------------------
+
+Scanner - class is responsible to read input from users - using console , file , String , XXX   
+
+name:string  
+number : 
+alNum  : 
+
+
+methods -> 
+
+class->object-> 
+    need to create object of scanner class 
+
+we must import Scanner class before use 
+
+import XXXXX ; 
+import java.util.Scanner;  
+
+
+
+--------------------------------------------------------
+
+Banking Application
+Objective: Develop a Java program that simulates basic banking operations using classes, 
+        objects, and methods.
+
+Requirements:
+
+Define a BankAccount class with the following attributes:
+
+accountNumber  : The account's unique identifier.
+accountHolder (String): The name of the account holder.
+balance (double): The current balance of the account.
+Implement the following methods within the BankAccount class:
+
+deposit(double amount): Adds the specified amount to the account balance.
+withdraw(double amount): Subtracts the specified amount from the account balance, ensuring that the balance does not become negative.
+displayAccountInfo(): Prints the account number, account holder's name, and current balance.
+----------------------------------------------------------------------------------------
+
+
