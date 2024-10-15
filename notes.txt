@@ -196,3 +196,57 @@ displayAccountInfo(): Prints the account number, account holder's name, and curr
 ----------------------------------------------------------------------------------------
 
 
+              java 
+primitive               non primitive
+8                       <>
+number-whole number         class,object,array,enum, 
+byte                        String : multiple characters 
+short
+int 
+long 
+
+number-fraction-real number
+float 
+double 
+
+character->
+char->single character 
+
+true-false 
+boolean 
+------------------------------------------------------------------------------------------
+
+constructor -> special method -> 
+                    which has same name as class name 
+                    it does not have any return type 
+                    which is used to initlialize/assign values to the instance/class variable 
+                    it will call automatically when we create object , we dont need to invoke it 
+
+                    () -> no argument , default constructor 
+                    (int x,.....) argument , parameterized constructor 
+------------------------------------------------------------------------------------------
+
+Car Management System :- 
+
+You are tasked with developing a Car Management System that allows a user to manage car information. The system should be able to store and display information about different cars.
+
+Requirements:
+Create a Car class with the following attributes:
+
+model (String): The model of the car.
+color (String): The color of the car.
+year (int): The manufacturing year of the car.
+The Car class should include:
+
+A constructor that initializes the car's model, color, and year.
+A method displayInfo() that prints the car's details in a formatted manner.
+In the main program, the user should be able to:
+
+Create multiple car objects.
+Call the displayInfo() method on each car object to show its details.
+Example Scenario:
+Create a car with the model "Tesla Model S", color "Red", and year 2023.
+Create another car with the model "Ford Mustang", color "Blue", and year 2022.
+Display the information of both cars.
+
+------------------------------------------------------------------------------------------
