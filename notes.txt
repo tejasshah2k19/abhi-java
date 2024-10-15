@@ -259,3 +259,65 @@ Car Model: Ford Mustang
 Color: Blue
 Year: 2022
 ------------------------------------------------------------------------------------------
+
+multiple characters -> String class 
+
+we do no required to import 
+
+String class belongs to java.lang package. 
+
+java.lang -> 
+
+
+String str = "royal"; 
+String str = new String("royal");
+
+
+concat
+toUpperCase
+toLowerCase 
+
+equals() -> value -> case sensitive 
+equalsIgnoreCase()
+
+compareTo()
+compareToIgnoreCase()
+
+length() -> total characters 
+
+trim() -> "  royal edu  "; 
+split(" ") => "royal edu ahmedabad"
+
+String -> immutable -> self -> new -> apply 
+
+
+1) take email and password from user and print valid if 
+        email is admin@gmail.com and password is AdminSecret 
+        otherwise print invalid 
+e.g : enter email and password 
+      ram@ravan.com 
+      AdminSecret 
+      Invalid 
+
+2) take string from user and reverse it and print it 
+    input :  royal 
+    output : layor 
+    
+3) take string from user and print its palindrome or not 
+    input : royal 
+    output : notpalindrome 
+
+    input : madam 
+    output : palindrome 
+
+4) take string with multiple words and check how many words are greater than 3 in size ( > 3 )  
+    input: jony jony yes papa 
+    output : 3 
+
+
+
+
+---------------------------------------------------------
+mutable -> 
+        StringBuffer , StringBuilder 
+
