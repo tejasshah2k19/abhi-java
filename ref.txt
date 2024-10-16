@@ -1,0 +1,28 @@
+Java Classes and Objects Practice Set
+1. Person, Address, and Employee Classes
+Create a Person class with attributes name and age. Add a constructor and a method to display person details.
+Create an Address class with attributes city, state, and zipcode. Add a method to display address details.
+Create an Employee class that extends Person, with additional employeeId and designation. Include methods for employee details and linking to the address.
+2.
+ Car, Engine, and Driver Classes
+Create a Car class with attributes brand, model, and an Engine object.
+Create an Engine class with attributes horsepower and type.
+Create a Driver class that links to a Car and has a name and licenseNumber. Implement methods to drive and display driver information.
+
+3. Library System
+Define a Book class with title, author, and ISBN as attributes. Include methods to display book information.
+Create a Library class that manages a list of Book objects. Implement methods to add and remove books from the collection.
+Write a LibraryUser class that has attributes userId, name, and a method to borrow books from the Library.
+
+4. School, Student, and Course Classes
+Create a Student class with studentId, name, and age attributes. Include a method to display student details.
+Define a Course class with courseId, courseName, and duration. Include methods to register students in the course.
+Implement a School class that maintains a list of Students and Courses. Write methods to enroll students in courses and list courses a student is enrolled in.
+5. Bank Account, Transaction, and Customer Classes
+Create a BankAccount class with attributes accountNumber, balance, and a method for transactions (deposit, withdraw).
+Create a Transaction class that logs transaction details like transactionId, amount, and type.
+Define a Customer class with attributes customerId, name, and a list of bank accounts. Implement methods to manage accounts and view transaction history.
+6. Zoo, Animal, and Zookeeper Classes
+Create an Animal class with attributes species, age, and methods to display animal information.
+Define a Zoo class that holds a collection of Animal objects. Include methods to add and remove animals from the zoo.
+Create a Zookeeper class with name, employeeId, and a method to feed animals.

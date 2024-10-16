@@ -321,3 +321,56 @@ e.g : enter email and password
 mutable -> 
         StringBuffer , StringBuilder 
 
+----------------------------------------------------------------------
+
+Define a Book class with title, author, and ISBN as attributes. 
+Include methods to display book information.
+
+Create a Library class that manages a a Book object. 
+create two method ,1 add  that create book and 2 print that print all the information of a book.
+
+-------------------------------------------------------------------------
+
+
+int a; // we can store single integer value in variable a 
+a=10;
+
+a=20; 
+
+
+int a[]; //size 
+a = new int[10]; 
+
+int a[] = new int[10];//10 copy 
+
+array -> index -> 0 start , size-1 
+
+a[0] ,a[1] , a[2].......a[9]
+
+0 to 9 => 10 copy 
+
+a[10] -> runtime error 
+
+before use of arary you must provide size
+
+----------------------------------------------------
+
+Library => book ? 
+
+collection -> ArrayList -> dynmic array 
+
+you dont need to mention size when u create array list -> 
+
+ArrayList -> class -> import 
+
+import java.util.ArrayList 
+
+indian team -> 11 player 
+collection -> list queue set  map
+              ArrayList   
+
+When we create ArrayList -> we need to pass Data Type for generic 
+
+
+
+
