@@ -371,6 +371,20 @@ collection -> list queue set  map
 
 When we create ArrayList -> we need to pass Data Type for generic 
 
+---------------------------------------------------------
+
+q: create a list of five string and remove all the string who's length is less than 5 
 
 
+---------------------------------------------------------
 
+create class Product with productName , price , year 
+write three methods for this class 
+first method will read all product information from user 
+second method will print all the product information 
+third method will increase the product price by 10% 
+
+create class ProductMenu which contains main method and 1 menu for above three method 
+user will select choice and then method will call as per choice; 
+
+--------------------------------------------------

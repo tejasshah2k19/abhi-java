@@ -37,5 +37,40 @@ class ArrayListDemo {
             System.out.println(l1.get(i));//
         }
 
+
+        //add get size 
+
+        //remove item from list
+        System.out.println(l1);
+        l1.remove(0);
+        System.out.println(l1);
+
+        l1.remove("laxman");//boolean 
+        System.out.println(l1);
+
+        //search ->item -> sita is present 
+        System.out.println(l1.contains("sita"));//boolean : true 
+        System.out.println(l1.contains("ram"));//boolean  : false 
+        
+
+       // l1.clear(); //remove all the items from list 
+
+        l1.add("joker");//when we say add it will add at the last 
+        System.out.println(l1);
+
+        l1.addFirst("race");
+        System.out.println(l1);
+
+        l1.addLast("car-race");
+        System.out.println(l1);
+
+
+       System.out.println(l1); 
+       l1.add(0,"zero");//add->index-> index add -> rest are shift right 
+       
+       System.out.println(l1);
+       l1.set(0, "FIRST");
+       System.out.println(l1);
+
     }
 }
