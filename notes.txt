@@ -388,3 +388,20 @@ create class ProductMenu which contains main method and 1 menu for above three m
 user will select choice and then method will call as per choice; 
 
 --------------------------------------------------
+
+1.  Add Name 
+2.  List All Name 
+3.  Remove Name 
+4.  Search Name
+5.  Exit 
+
+1
+enter name 
+royal
+
+1.  Add Name 
+2.  List All Name 
+3.  Remove Name 
+4.  Search Name
+5.  Exit 
+
