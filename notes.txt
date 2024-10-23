@@ -405,3 +405,46 @@ royal
 4.  Search Name
 5.  Exit 
 
+-------------------------------------------------------------------------------------
+
+Method OverLoading :- 
+
+class  
+    void add() 
+    void add(int a) // argument must be unique 
+    void add(int j,int h) 
+
+    class can have more than 1 method with same name. 
+    but argument must be unique. 
+
+    ArrayList 
+            remove(int) -> index 
+            remove(element) -> data 
+--------------------------------------------------------------------------------------
+Constructor OverLoading :- 
+    class User 
+
+            User(){
+                //no argument 
+            }
+            User(String name){
+                //parameterized constructor 
+            }
+---------------------------------------------------------------------------------------
+code reuse -> Inheritance ->
+    Inheritance is the process by which object of 1 class can access 
+    property of another class 
+
+    class Calc -> add() , sub() , mul() 
+
+    class SciCalc -> sin() cos() 
+
+
+    Calc obj -> add() sub() mul()
+    SciCalc obj -> sin() cos() 
+
+
+    extends keyword is used to achieve Inheritance
+
+    SciCalc extends Calc 
+----------------------------------------------------------------------------------------    
