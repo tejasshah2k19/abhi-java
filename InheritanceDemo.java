@@ -32,6 +32,8 @@ class Calc{
 
 class SciCalc extends Calc{
     void sin(){
+        // this -> sciCalc 
+        // super -> Calc 
         System.out.println("SciCalc::sin()");
     }
     void cos(){

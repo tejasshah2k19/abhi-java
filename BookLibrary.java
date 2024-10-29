@@ -33,6 +33,11 @@ class Book {
     String title;
     String author;
     String category;
+    //this
+    void dummy(String title){
+        System.out.println(title);//local variable   -> dummy method 
+        System.out.println(this.title);//instance variable ->  class -> 
+    }
 
     // instance
     void readBook() {

@@ -447,4 +447,200 @@ code reuse -> Inheritance ->
     extends keyword is used to achieve Inheritance
 
     SciCalc extends Calc 
+
+
+    we have 5 types of Inheritance in OOP 
+    java supports all 5 but 1 indeirectly 
+
+    single level Inheritance
+    multi level Inheritance
+    multiple Inheritance** 
+    hirerchical Inheritance
+    hybrid Inheritance  { combine atleast any two type }
+
+    Calc 
+
+
+    SciCalc extends Calc 
+
+    class -> giver -> Parent class {super,base} 
+    class -> taker -> Child class  {sub,derived}
+
+
+    super keyword is used to access parent's property 
+    this keyword is used to access own class's property 
+        this always refere current class -> object 
 ----------------------------------------------------------------------------------------    
+
+Polymorphism => more than 1 form 
+    1) overloading -> compile time Polymorphism
+    2) overriding -> runtime Polymorphism 
+
+
+----------------------------------------------------------------------------------------    
+    Access Modifier -> 
+            private 
+            default ---> implicitly -> you can write manually 
+            protected 
+            public 
+
+----------------------------------------------------------------------------------------    
+Package -> folder 
+
+    Scanner 
+    System 
+    Math 
+    String 
+    Date 
+    Date 
+    Calendar 
+    Applet 
+    File 
+    FileOutputStream 
+
+            java 
+                lang
+                    String 
+                    Math 
+                    System  
+                util 
+                    Date 
+                    Calendar
+                io 
+                    File 
+                    FileOutputStream 
+                applet
+                    Applet 
+                    Graphic 
+                    Button 
+                security
+
+                net 
+
+                sql
+                    Date 
+                    Connection 
+
+    
+    you must have to import then use 
+
+    import java.sql.Date 
+
+
+-----------------------------------------------------------------------------------------
+
+inheritance 
+    SingleLevelInhertianceDemo.java 
+
+package inheritance;
+
+class SingleLevelInhertianceDemo{
+
+}
+
+-----------------------------------------------------------------------------------------
+
+error -> 
+        1) compiletime error 
+        2) runtime error 
+
+        javac -> java compile -> .class -> not run 
+        sysntax error , variable use without declare , semicoln 
+
+        java -> .class -> run -> runtime error 
+        exception -> runtime error 
+
+        crash -> 
+
+        exception handeling 
+
+
+
+        try -> code -> area 
+        hit -> create object {runtime error - exception }
+        throw -> object 
+        catch -> handeling 
+
+
+        try---catch 
+
+        / by zero 
+        integer -> real 
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------        
+                Object 
+                
+                Throwable 
+                
+                Exception 
+                            RuntimeException 
+        IoException             ArithmeticException                      
+                                InputmismatchException    
+
+   1) checked exception -> force 
+   2) unchecked exception -> 
+---------------------------------------------------------------------------------------------
+
+
+java.io.* 
+
+    file create -- folder  
+    file rename --folder 
+    file remove --folder 
+    file exists ? --folder 
+    file size? --folder 
+    file read --folder file list 
+    file write --folder -> file create 
+    file copy --
+
+
+    File class -> create , rename , size , remove , exists , hidden?attributes? , 
+---------------------------------------------------------------------------------------------
+
+encapsulation :-
+    variable -> restricted , less accessible 
+    private / protected 
+    method  -> public 
+            private variable -> public getter and setter 
+---------------------------------------------------------------------------------------------
+
+Polymorphic object -> 
+
+//                  Bike 
+    //              1  3 4 
+//  Pulsar      Yuzdi       Boxer       Bullet 
+//   1  2 3     1 5 4 3     1 2 3 6    1 2 5 9 7 
+
+//Bike b = new Pulsar() 
+//1 3 4 
+
+//Bike b =new Boxer()
+//1 3 4  
+
+//Bike y = new Yuzdi()
+//1 3 4  
+
+//Boxer b = new Pulsar();
+
+//Parent p = new Child();
+
+//Pular p = new Bike();  
+
+        
+        Bike b = new Pulser();//polymorphic object 
+        b.start();  //compiletime:Parent class -> Bike  runtime:child -> Pulser  
+        b.stop();
+        //b.disc();
+//javac XXX.java -> compile -> .class ->Bike 
+
+//java XXX -> runtime -> .class -> run -> memory -> Pulser   
+----------------------------------------------------------------------
+abstract -> no logic -> only declration 
+
+interface -> pure abstract class 
+                all the methods are by default abstract 

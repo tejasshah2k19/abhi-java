@@ -1,6 +1,8 @@
 public class DefaultValue {
     public static void main(String[] args) {
         LegionLaptop l  = new LegionLaptop(); 
+        LegionLaptop l2  = new LegionLaptop(250000,"AbcD"); 
+        
         l.display();
     }
 }//
@@ -27,6 +29,12 @@ class LegionLaptop{
         laptopCode = "24E2";
         System.out.println("Constructor call done..");
     }
+    LegionLaptop(int price,String code){
+        
+        this.price = price;
+        laptopCode = code ;
+    }
+
     void display(){
         System.out.println(active);
         System.out.println(usb);
