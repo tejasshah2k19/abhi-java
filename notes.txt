@@ -644,3 +644,58 @@ abstract -> no logic -> only declration
 
 interface -> pure abstract class 
                 all the methods are by default abstract 
+
+----------------------------------------------------------------------------------
+
+Queue 
+Map 
+HashTable 
+Enum 
+RegEx , Pattern , Matcher 
+
+----------------------------------------------------------------------------------
+
+List :: ArrayList -> 10 20 30 40  60 70 40  
+        add() get(index) unsorted remove(index) size() clear() 
+        [     ]:10 ::5 used
+        [            ]:15 ::10 used  
+        [                 ]:22
+        grow ? 
+
+Queue :: LinkedList ->
+            [] [] [] [] [] [] [] [] 
+
+
+Queue :: PriorityQueue -> 
+
+Map  ::  HashMap -> 
+        only value ?
+        allows value with key -> 
+        in map we will store key : value pair data 
+
+hashFunction -> key 
+
+        10 20 30 40  60 70 40  
+
+
+modulo method -> 
+
+10%13 -> 10
+20%13 -> 7 
+30%13 -> 4
+..
+..
+.
+.
+.
+
+search 30 -> ? 30%13 => 4 
+
+
+keys are always unique -> 
+values can be duplicate -> 
+-------------------------------------------------------------------
+
+
+
+
