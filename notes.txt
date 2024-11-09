@@ -696,6 +696,40 @@ keys are always unique ->
 values can be duplicate -> 
 -------------------------------------------------------------------
 
+Enum 
+RegEx , Pattern , Matcher 
 
 
 
+-------------------------------------------------------------------
+
+constant -> fix value 
+
+int a; 
+a=10;
+a=20; 
+
+
+final int a=20;//constant variable 
+a=10; //error 
+
+all capital 
+
+final int BRANCH_CODE = 10025; 
+
+
+enum -> collection of constant -> 
+we can treat enum like class in java 
+
+
+class Drink{
+
+}
+
+
+enum Drink{
+
+
+}
+
+---------------------------------------------------------------
