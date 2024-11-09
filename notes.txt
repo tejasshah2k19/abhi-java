@@ -733,3 +733,13 @@ enum Drink{
 }
 
 ---------------------------------------------------------------
+name -> a-z A-Z 
+
+XX@XX.XX -> regEX 
+
+Pattern 
+Matcher 
+Scanner 
+String.matches 
+
+
